@@ -1,0 +1,188 @@
+.Hero{
+    background-color: #AEDAFE;
+    height: 70rem;
+    position: relative;
+    overflow: hidden;
+}
+.Sun{
+    z-index: 1000;
+    position: absolute;
+    top: 2%;
+    right: 19%;
+}
+.Island{
+    height: 19rem;
+    width: 29rem;
+    position: absolute;
+    top: 23rem;
+}
+.coconutTree{
+    position: absolute;
+    top: 10rem;
+    left: 9rem;
+    z-index: 1;
+    width: 248px;
+}
+
+.Island_group{
+    display: block;
+    padding: 0 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 39%;
+    left: 20%;
+}
+@keyframes Float {
+    to {
+        transform: translateX(100%)
+    }
+}
+
+.clouds {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 200px;
+        overflow: hidden;
+    }
+    
+    .cloud {
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        background-image: url(../../images/cloud.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        animation: Float 120s linear infinite forwards reverse;
+        z-index: 90002;
+        transform: translateX(-115px);
+    }
+    
+    .cloud.background {
+        height: 10%;
+        min-height: 20px
+        
+    }
+    
+    .cloud.background{
+        height: 9%;
+        min-height: 8px;
+        animation-duration: 210s
+    }
+    
+    .cloud:nth-child(10) {
+        animation-delay: -184s;
+        top: 60%
+    }
+    
+    .cloud:nth-child(10) {
+        animation-duration: 110s
+    }
+    
+    .cloud:nth-child(9) {
+        animation-delay: -166s;
+        top: 54%
+    }
+    
+    .cloud:nth-child(9) {
+        animation-duration: 114s
+    }
+    
+    .cloud:nth-child(8) {
+        animation-delay: -147s;
+        top: 48%
+    }
+    
+    .cloud:nth-child(8) {
+        animation-duration: 88s;
+        height: 30%
+    }
+    
+    .cloud:nth-child(7) {
+        animation-delay: -129s;
+        top: 42%
+    }
+    
+    .cloud:nth-child(7) {
+        animation-duration: 122s;
+        height: .34%
+    }
+    
+    .cloud:nth-child(6) {
+        animation-delay: -110s;
+        top: 36%
+    }
+    
+    .cloud:nth-child(6) {
+        animation-duration: 126s;
+        height: 1.5%
+    }
+    
+    .cloud:nth-child(5) {
+        animation-delay: -92s;
+        top: 30%
+    }
+    
+    .cloud:nth-child(5) {
+        animation-duration: 100s;
+        height: 22.5%
+    }
+    
+    .cloud:nth-child(4) {
+        animation-delay: -73s;
+        top: 24%
+    }
+    
+    .cloud:nth-child(4) {
+        animation-duration: 134s;
+        height: 4%
+    }
+    
+    .cloud:nth-child(3) {
+        animation-delay: -55s;
+        top: 18%
+    }
+    
+    .cloud:nth-child(3) {
+        animation-duration: 108s;
+        height: 17.5%
+    }
+    
+    .cloud:nth-child(2) {
+        animation-delay: -37s;
+        top: 12%
+    }
+    
+    .cloud:nth-child(2) {
+        animation-duration: 142s;
+        height: 6.59%
+    }
+    
+    .cloud:nth-child(1) {
+        animation-delay: -18s;
+        top: 6%
+    }
+    
+    .cloud:nth-child(1) {
+        animation-duration: 116s;
+        height: 12.5%
+    }
+@media screen and (min-width: 1000px) {
+    .Island{
+        height: 19rem;
+        width: 29rem;
+        position: absolute;
+        top: 18rem;
+    }
+    .coconutTree{
+        position: absolute;
+        top: 5rem;
+        left: 9rem;
+        z-index: 1;
+        width: 248px;
+    }
+    
+}

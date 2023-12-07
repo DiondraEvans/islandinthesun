@@ -1,0 +1,58 @@
+.list_items{
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   color: #FFFCE6;
+   width: 100%;
+}
+.block_flex_start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFCE6;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+.small_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFCE6;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    margin-top: 80px;
+}
+.med_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFCE6;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.med_flex p{
+    color: #FFFCE6;
+    text-align: left;
+    width: 90%;
+    height: 100%;
+    margin-top: 80px;
+}
+.space_grid{
+  margin-top: 10%; /* Adjust as needed */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto; /* Adjusted to "auto" for dynamic content */
+  gap: 100px 100px;
+  width: 100%;
+}

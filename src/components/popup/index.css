@@ -1,0 +1,290 @@
+@media screen and (min-width: 1368px) {
+    .popup_screen {
+        position: absolute;
+        top: 0;
+        z-index: 99999;
+        background-color: #c2a25ef5;
+        height: fit-content;
+        width: 100%;
+    }
+    .sand_navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px 0 10px;
+    }
+    .backbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        height: 3rem;
+        background-color: #B38F48;
+        color: #FFFCE6;
+        cursor: pointer;
+    }
+    .backbtn:hover{
+        transform: scale(1.1 , 1.1);
+    }
+    .case_title{
+        color: #FFFCE6;
+    }
+    .banner{
+        display: flex;
+        height: 476px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/screen_dash.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+        background-size: cover;
+    }
+    .info_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .info_grid div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        color: #FFFCE6;
+        text-align: center;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .info_grid p{
+        width: 600px;
+    }
+    .design_process{
+        display: flex;
+        height: 476px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/design\ process.png);
+        background-repeat: no-repeat;
+        background-size: auto 60%;
+        background-position: center center;
+    }
+    .block_space{
+        width: 100%;
+        color: #FFFCE6;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block_space ul{
+        padding-left: 0;
+        list-style-type: none;
+    }
+    .centered_para{
+        width: 50rem;
+        padding: 0 341px 0 362px;
+        text-align: center;
+    }
+    .bubbles{
+        height: 576px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/bubbles.png);
+        background-repeat: no-repeat;
+        background-size: auto 70%;
+        background-position: center center;
+        background-size:auto;
+    }
+    .personas{
+        height: 576px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/PersonaOneTwo.png);
+        background-repeat: no-repeat;
+        background-size: auto 70%;
+        background-position: center center;
+        background-size:auto;
+    }
+    .flex-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px 0 20px;
+    }
+    .flex-row{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px 0 20px;
+        margin-bottom: 90px;
+    }
+    .flex-row p{
+        width: 500px;
+    }
+    .infocards{
+        height: 576px;
+        background-image: url(../../images/uxphotos/EMK/informarchparticipants.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .userflow{
+        height: 576px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/emkuserflow.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .header{
+        width: 90%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        color: #B38F48;
+        background-color: #E2D19E;
+    }
+    .proto_photo{
+        height: 576px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/ipad_ideation.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .ipad_lofi{
+        height: 376px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/lo-fi_wireframesIpad.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .kiosk_lofi{
+        height: 709px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/lo-fi_wireframes.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .typography{
+        height: 509px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/Logo_Branding.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .hi-fi_one_ipad{
+        height: 175px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/hifi_1.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .hi-fi_two_ipad{
+        height: 396px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/hifi_4.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .hi-fi_three_ipad{
+        height: 175px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/hifi_2.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .hi-fi_four_ipad{
+        height: 385px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/hifi_5.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .hi-fi_five_ipad{
+        height: 175px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/hifi_3.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .hi-fi_six_ipad{
+        height: 395px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/hifi_6.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .space{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 1367px) {
+    .popup_screen{
+            position: absolute;
+            top: 0;
+            z-index: 99999;
+            background-color: #c2a25ef5;
+            height: fit-content;
+            width: 100%;
+    }
+    .sand_navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px 0 10px;
+    }
+    .backbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        height: 3rem;
+        background-color: #B38F48;
+        color: #FFFCE6;
+    }
+    .case_title{
+        color: #FFFCE6;
+    }
+    .banner{
+        display: flex;
+        height: 476px;
+        width: 100%;
+        background-image: url(../../images/uxphotos/EMK/screen_dash.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center center;
+        background-size: cover;
+    }
+    .info_grid{
+        display: grid;
+        grid-auto-flow: row;
+        width: 100%;
+        height: fit-content;
+}
+.design_process{
+    display: flex;
+    height: 476px;
+    width: 100%;
+    background-image: url(../../images/uxphotos/EMK/design\ process.png);
+    background-repeat: no-repeat;
+    background-size: auto 40%;
+    background-position: center center;
+    background-size:contain;
+}
+.block_space{
+    color: #FFFCE6;
+    margin-top: 100px;
+}
+}

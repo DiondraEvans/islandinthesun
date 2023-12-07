@@ -1,0 +1,86 @@
+.Footer{
+    position: relative;
+    background-color: #817C7C;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+.socials{
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.socials a{
+    cursor: pointer;
+}
+.socials a:nth-child(1){
+   height: 70px;
+   width: 70px;
+}
+.socials a:nth-child(1):hover{
+    transition: .3s;
+    transform: scale(1.2,1.2);
+}
+.socials a:nth-child(2){
+    height: 70px;
+    width: 70px;
+}
+.socials a:nth-child(2):hover{
+    transition: .3s;
+    transform: scale(1.2,1.2);
+}
+.socials a:nth-child(3){
+    height: 70px;
+    width: 70px;
+}
+.socials a:nth-child(3):hover{
+    transition: .3s;
+    transform: scale(1.2,1.2);
+}
+.socials a:nth-child(4){
+    height: 70px;
+    width: 80px;
+}
+.socials a:nth-child(4):hover{
+    transition: .3s;
+    transform: scale(1.2,1.2);
+}
+
+@keyframes drive {
+    to {
+        transform: translateX(100%)
+    }
+}
+
+.bus{
+    position: absolute;
+    bottom: 60px;
+    height: 476px;
+    width: 100%;
+    background-image: url(../../images/footer/bus.png);
+    z-index: 90002;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    animation: drive 10s linear infinite forwards;
+}
+@media screen and (max-width: 916px) {
+    .bus{
+        position: absolute;
+        bottom: 20px;
+        height: 476px;
+        width: 100%;
+        background-image: url(../../images/footer/bus.png);
+        z-index: 90002;
+        background-repeat: no-repeat;
+        background-size: auto 50%;
+        animation: drive 10s linear infinite forwards;
+    }
+    
+}

@@ -1,0 +1,45 @@
+html{
+    scroll-behavior: smooth;
+}
+.Nav{
+    position: relative;
+    z-index: 10000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.Nav div{
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 153, 0);
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    height: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.Nav div:hover{
+    cursor: pointer;
+    background-color: #275DAD;
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    height: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.Nav a{
+    text-decoration: none;
+    color: white;
+}
+.Nav p{
+    color: yellow;
+}
+.Nav p:hover{
+  color: red;
+}

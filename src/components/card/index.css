@@ -1,0 +1,41 @@
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    border-radius: 16px;
+    height: 466px;
+    width: 342px;
+    z-index: 4;
+    background-color: #FFFCE6;
+}
+.cardTitle{
+    width: 100%;
+    flex-grow: 1;
+}
+.cardImage{
+     width: 80%;
+     height: 50%;
+}
+.cardDes{
+     width: 80%;
+    flex-grow: 1;
+    padding: 30px 30px 30px 30px;
+}
+.prBtn{
+    color: #666038;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: #EBCA7D;
+}
+.prBtn:hover{
+    color: white;
+    background-color: #B38F48;
+}

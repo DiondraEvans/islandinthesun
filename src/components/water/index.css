@@ -1,0 +1,67 @@
+.Water{
+    background-color: #1684DE;
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.water-line{
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        height: 5px;
+        background-image: url(../../images/water-line.png);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        animation: Float 120s linear infinite forwards reverse;
+        z-index: 90002;
+        transform: translateX(-115px);
+}
+.water-line:nth-child(4) {
+    animation-delay: -184s;
+    top: 10%
+}
+
+.water-line:nth-child(4) {
+    animation-duration: 110s
+}
+
+.water-line:nth-child(3) {
+    animation-delay: -166s;
+    top: 54%
+}
+
+.water-line:nth-child(3) {
+    animation-duration: 114s
+}
+
+.water-line:nth-child(2) {
+    animation-delay: -147s;
+    top: 48%
+}
+
+.water-line:nth-child(2) {
+    animation-duration: 88s;
+    height: 2%
+}
+
+.water-line:nth-child(1) {
+    animation-delay: -129s;
+    top: 42%
+}
+
+.water-line:nth-child(1) {
+    animation-duration: 122s;
+    height: 2%
+}
+
+.water-line:nth-child(0) {
+    animation-delay: -110s;
+    top: 36%
+}
+
+.water-line:nth-child(0) {
+    animation-duration: 126s;
+    height: 2%
+}

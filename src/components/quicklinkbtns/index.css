@@ -1,0 +1,38 @@
+.quicklinkbtns{
+height: 500px;
+width: 500px;
+}
+.quicklinkbtns a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    width: 30%;
+    height: 10%;
+}
+.quicklinkbtns a:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    transform: scale(1.1,1.1);
+    width: 30%;
+    height: 10%;
+}
+.live-site{
+   color: white;
+   background-color: #FEAC5E;
+}
+.prototype{
+color: #FEAC5E;
+background-color: white;
+border: .5px solid #FEAC5E;
+}
+.github-code{
+    background-color: #C779D0;
+    color: white;
+}
