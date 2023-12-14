@@ -1,4 +1,10 @@
 @media screen and (min-width: 1368px) {
+    p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .popup_screen {
         position: absolute;
         top: 0;
@@ -230,6 +236,12 @@
     }
 }
 @media screen and (max-width: 1367px) {
+    p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .popup_screen{
             position: absolute;
             top: 0;
@@ -286,5 +298,15 @@
 .block_space{
     color: #FFFCE6;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 }
