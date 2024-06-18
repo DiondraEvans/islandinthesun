@@ -1,6 +1,5 @@
-import React, { useEffect, useState, useContext} from 'react';
+import React from 'react';
 import {ScrollRestoration } from 'react-router-dom'
-import { AppContext } from './contexts/app_context';
 import './App.css';
 import Hero from './components/hero';
 import Sand from './components/sand'

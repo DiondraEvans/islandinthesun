@@ -9,7 +9,7 @@ import SNPopup from '../SNPopup/index';
 import ABPopup from '../abpopup';
 import G3Popup from '../g3popup'
 function Sand() {
-    let {showDiv, setCase, Case} = useContext(AppContext);
+    let {showDiv, Case} = useContext(AppContext);
 return(
     <div class="Sand" id="portfolio">
             <div class="beach_grid">
