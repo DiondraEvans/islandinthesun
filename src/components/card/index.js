@@ -20,14 +20,16 @@ console.log(object.cardTitle)
         }else if ( object.cardTitle == "WindBNB"){
             setCase("wbnb")
             console.log(Case)
+            window.location.href = 'https://windbnb-zd7l.onrender.com';
 
         }else if ( object.cardTitle == "Sneakers"){
             setCase("sn")
             console.log(Case)
-            
+            window.location.href ='https://sneakers-c24z.onrender.com/'
         }else if ( object.cardTitle == "Alien Battle"){
             setCase("ab")
             console.log(Case)
+            window.location.href ='https://diondraevans.github.io/Space-Battle-MOD-1-PROJECT-/'
             
         }else if ( object.cardTitle == "G3 Solutions"){
             setCase("g3")
