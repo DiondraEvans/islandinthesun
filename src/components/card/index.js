@@ -54,3 +54,4 @@ console.log(object.cardTitle)
 }
 //sand_navbar scrolls to the right place only in the EMKpopup or known as "popup" card because the code is set up for that popup and no other ones
 export default Card;
+ 
