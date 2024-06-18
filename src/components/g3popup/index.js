@@ -1,9 +1,9 @@
-import React, { useEffect, useState, useContext  } from 'react';
+import React, { useContext  } from 'react';
 import { AppContext } from '../../contexts/app_context';
 import './index.css'
 
 function G3Popup() {
-  let {showDiv, setShowDiv, setCase, Case} = useContext(AppContext);
+  let {showDiv, setShowDiv} = useContext(AppContext);
 
   function handleClick() {
     if(showDiv == false){
