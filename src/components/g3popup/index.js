@@ -6,9 +6,9 @@ function G3Popup() {
   let {showDiv, setShowDiv} = useContext(AppContext);
 
   function handleClick() {
-    if(showDiv == false){
+    if(showDiv === false){
         setShowDiv(true);
-    } else if (showDiv == true){
+    } else if (showDiv === true){
         setShowDiv(false);
     }
 }

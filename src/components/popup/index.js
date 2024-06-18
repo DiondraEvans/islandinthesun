@@ -2,16 +2,16 @@ import React, {  useContext  } from 'react';
 import { Link } from 'react-router-dom';
 import { AppContext } from '../../contexts/app_context';
 import './index.css'
-import Banner from '../../images/uxphotos/EMK/screen_dash.png'
+
 
 
 function Popup() {
-  let {showDiv, setShowDiv, setCase, Case, UX, selectedItem, setSelectedItem} = useContext(AppContext);
+  let {showDiv, setShowDiv} = useContext(AppContext);
 
   function handleClick() {
-    if(showDiv == false){
+    if(showDiv === false){
         setShowDiv(true);
-    } else if (showDiv == true){
+    } else if (showDiv === true){
         setShowDiv(false);
     }
 }
@@ -29,7 +29,7 @@ function Popup() {
       <div class="banner"></div>
       <h1 class="case_title">Eat More Korean</h1>
       <div>
-          <iframe style={{border: "1px solid rgba(0, 0, 0, 0.1)"}} width="50%" height="500" src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2FuYdFZLAoAMXMdnayE5GaYH%2FEMK-makeover%3Fpage-id%3D0%253A1%26node-id%3D315-146%26viewport%3D590%252C-572%252C0.04%26scaling%3Dscale-down%26starting-point-node-id%3D315%253A146" allowfullscreen=""></iframe>
+          <iframe  title="kiosk app prototype" style={{border: "1px solid rgba(0, 0, 0, 0.1)"}} width="50%" height="500" src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2FuYdFZLAoAMXMdnayE5GaYH%2FEMK-makeover%3Fpage-id%3D0%253A1%26node-id%3D315-146%26viewport%3D590%252C-572%252C0.04%26scaling%3Dscale-down%26starting-point-node-id%3D315%253A146" allowfullscreen=""></iframe>
       </div>
       <div class="info_grid">
         <div class="emkOneThree">

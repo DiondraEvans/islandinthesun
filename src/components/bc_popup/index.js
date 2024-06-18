@@ -5,12 +5,12 @@ import Quicklinkbtns from '../quicklinkbtns';
 import './index.css'
 
 function BCPopup() {
-  let {showDiv, setShowDiv, setCase, Case} = useContext(AppContext);
+  let {showDiv, setShowDiv} = useContext(AppContext);
 
   function handleClick() {
-    if(showDiv == false){
+    if(showDiv === false){
         setShowDiv(true);
-    } else if (showDiv == true){
+    } else if (showDiv === true){
         setShowDiv(false);
     }
 }
@@ -145,9 +145,6 @@ function BCPopup() {
             <h2 className="header">Ideate</h2>
             <h3>Features</h3>
             <p className="centered_para">The product features can make or break the experience for users. After assessing the user, business goals and the technical constraints, I made a list of features essential to the user's experience socializing with Bookclub.</p>
-          </div>
-          <div className="block_space">
-          <h3></h3>
           </div>
       </div>
 
