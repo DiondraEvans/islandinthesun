@@ -6,7 +6,7 @@ import Card from '../card'
 
 function Projects(props) {
 
-    let {UX, WEB, DESIGNS, setShowDiv, showDiv, selectedItem, setSelectedItem} = useContext(AppContext);
+    let {UX, WEB, DESIGNS, selectedItem, setSelectedItem} = useContext(AppContext);
    
 
     const handleItemClick = (item) => {

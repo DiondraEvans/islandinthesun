@@ -1,5 +1,5 @@
 import './index.css';
-import React, { useEffect, useState, useContext  } from 'react';
+import React from 'react';
 import Water from '../water';
 import Title from '../title';
 import Sun from '../../images/Sun.png'
@@ -11,7 +11,7 @@ function Hero() {
 return(
     <div class="Hero">
         <Nav />
-        <img src={Sun} class="Sun"></img>
+        <img src={Sun} class="Sun" alt="sun"></img>
         <div class ="clouds">
             <div class = "cloud background"></div>
             <div class = "cloud"></div>
@@ -24,8 +24,8 @@ return(
             <div class = "cloud"></div>
         </div>
         <div class="Island_group">
-            <img src={coconutTree} class="coconutTree"></img>
-            <img src={Island} class="Island"></img>
+            <img src={coconutTree} class="coconutTree" alt="coconut tree"></img>
+            <img src={Island} class="Island" alt="island"></img>
         </div>
         <Title />
         <Water />

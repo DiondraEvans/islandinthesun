@@ -3,12 +3,12 @@ import { AppContext } from '../../contexts/app_context';
 import './index.css'
 
 function SNPopup() {
-  let {showDiv, setShowDiv, setCase, Case} = useContext(AppContext);
+  let {showDiv, setShowDiv} = useContext(AppContext);
 
   function handleClick() {
-    if(showDiv == false){
+    if(showDiv === false){
         setShowDiv(true);
-    } else if (showDiv == true){
+    } else if (showDiv === true){
         setShowDiv(false);
     }
 }

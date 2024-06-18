@@ -59,7 +59,6 @@ const [DESIGNS, setDESIGNS] = useState(
 ]);
 const [showDiv, setShowDiv] = useState(false);
 const [Case, setCase] = useState("");
-const [cardTitle, setCardTitle] = useState("");
 const [selectedItem, setSelectedItem] = useState("UX");
 return (
         <AppContext.Provider value={{
