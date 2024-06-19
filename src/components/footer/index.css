@@ -13,40 +13,55 @@
     height: 9rem;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+@media screen and (max-width: 516px){
+    .socials{
+        height: 9rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+}
+.socials img{
+    width: 60px;
+    height: 55px;
 }
 .socials a{
     cursor: pointer;
 }
 .socials a:nth-child(1){
-   height: 70px;
-   width: 70px;
+   height: 100px;
+   width: 100px;
 }
 .socials a:nth-child(1):hover{
     transition: .3s;
     transform: scale(1.2,1.2);
 }
 .socials a:nth-child(2){
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
 }
 .socials a:nth-child(2):hover{
     transition: .3s;
     transform: scale(1.2,1.2);
 }
 .socials a:nth-child(3){
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
 }
 .socials a:nth-child(3):hover{
     transition: .3s;
     transform: scale(1.2,1.2);
 }
 .socials a:nth-child(4){
-    height: 70px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
 }
 .socials a:nth-child(4):hover{
     transition: .3s;

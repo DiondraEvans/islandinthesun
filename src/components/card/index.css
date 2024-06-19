@@ -10,6 +10,8 @@
     width: 342px;
     z-index: 4;
     background-color: #FFFCE6;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 .cardTitle{
     width: 100%;
