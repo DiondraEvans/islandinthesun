@@ -36,7 +36,7 @@ console.log(object.cardTitle)
         }else if ( object.cardTitle === "G3 Solutions"){
             setCase("g3")
             console.log(Case)
-            window.location.href ='https://diondraj.github.io/public/g3solutions/index.html'
+            window.location.href ='https://www.figma.com/proto/J1hy96GfumSRy89exz5Z5O/G3-Solutions?page-id=0%3A1&node-id=1-2&viewport=368%2C413%2C0.05&t=VveAOVdb7hA9QD2c-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A2'
         }
         if(showDiv === false){
             setShowDiv(true);
