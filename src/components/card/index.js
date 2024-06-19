@@ -12,10 +12,12 @@ console.log(object.cardTitle)
         if ( object.cardTitle === "Eat More Korean"){
             setCase("emk")
             console.log(Case)
+            window.location.href="https://www.figma.com/proto/uYdFZLAoAMXMdnayE5GaYH/EMK-project?kind=proto&node-id=307-890&page-id=0%3A1&scaling=scale-down&starting-point-node-id=315%3A146&viewport=590%2C-572%2C0.04"
            
         }else if ( object.cardTitle === "BookClub"){
             setCase("bc")
             console.log(Case)
+            window.location.href="https://timely-flan-0e0f4c.netlify.app/"
     
         }else if ( object.cardTitle === "WindBNB"){
             setCase("wbnb")
@@ -34,7 +36,7 @@ console.log(object.cardTitle)
         }else if ( object.cardTitle === "G3 Solutions"){
             setCase("g3")
             console.log(Case)
-            
+            window.location.href ='https://diondraj.github.io/public/g3solutions/index.html'
         }
         if(showDiv === false){
             setShowDiv(true);
