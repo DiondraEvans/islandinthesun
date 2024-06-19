@@ -8,11 +8,10 @@ function Title() {
     
     useEffect(() => {
         gsap.to(stagTitle.current, {
-          duration: 1.5,
-          y: 100,
+          duration: .8,
+          y: 60,
           opacity: 1,
-          stagger: 0.95,
-          ease: 'power2.out',
+          ease: 'power1.out'
         });
       }, []);
 
