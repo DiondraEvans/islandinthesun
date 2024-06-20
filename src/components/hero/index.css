@@ -11,15 +11,16 @@
     right: 19%;
 }
 .Island{
+    background-image: url(../../images/Island.png);
     height: 19rem;
     width: 29rem;
     position: absolute;
-    top: 23rem;
+    top: 20rem;
 }
 .coconutTree{
     position: absolute;
-    top: 10rem;
-    left: 9rem;
+    top: 6rem;
+    left: 10rem;
     z-index: 1;
     width: 248px;
 }
@@ -175,14 +176,31 @@
         height: 19rem;
         width: 29rem;
         position: absolute;
-        top: 18rem;
+        top: 22rem;
     }
     .coconutTree{
         position: absolute;
-        top: 5rem;
+        top: 9rem;
         left: 9rem;
         z-index: 1;
         width: 248px;
     }
     
+}
+@media screen and (max-width: 500px) {
+    .Island{
+    background-image: url(../../images/Island.png);
+    height: 19rem;
+    width: 29rem;
+    position: absolute;
+    top: 21rem;
+    left:-6rem;
+}
+.coconutTree{
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+    z-index: 1;
+    width: 248px;
+}
 }

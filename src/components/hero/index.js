@@ -3,7 +3,6 @@ import React from 'react';
 import Water from '../water';
 import Title from '../title';
 import Sun from '../../images/Sun.png'
-import Island from '../../images/Island.png'
 import coconutTree from '../../images/Tree.gif'
 import Nav from '../nav';
 
@@ -25,7 +24,8 @@ return(
         </div>
         <div class="Island_group">
             <img src={coconutTree} class="coconutTree" alt="coconut tree"></img>
-            <img src={Island} class="Island" alt="island"></img>
+            <div class="Island"></div>
+            {/* <img src={Island} class="Island" alt="island"></img> */}
         </div>
         <Title />
         <Water />

@@ -1,5 +1,5 @@
 import './index.css';
-import React, {  useContext } from 'react';
+import React, {  useContext} from 'react';
 import Projects from '../projects/index.js'
 import { AppContext } from '../../contexts/app_context';
 import Popup from '../popup/index';
@@ -8,12 +8,26 @@ import WBPopup from '../wbpopup/index';
 import SNPopup from '../SNPopup/index';
 import ABPopup from '../abpopup';
 import G3Popup from '../g3popup'
+// import useSound from 'use-sound';
+import sound from '../../sound/gogo.mp3';
 function Sand() {
+  
+    const audio = new Audio(sound)
+  
+      
+     const Start = () => {
+    
+                audio.play()
+
+              
+            }
+
     let {showDiv, Case} = useContext(AppContext);
 return(
     <div class="Sand" id="portfolio">
             <div class="beach_grid">
                 <div class="parasol"></div>
+                <div  className="boombox" onClick={ Start}></div>
                 <div class="footprints"></div>
             </div>
             <Projects />
